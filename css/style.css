@@ -526,9 +526,11 @@ label {
 
 .event-card-content {
   padding: 18px;
+  margin-bottom: 15px;
+  padding-top: 40px;
 }
 .event-card-content h4,p{
-  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .event--date{
 background-color: #ec6e39;
@@ -563,7 +565,7 @@ font-size: 12px;
 }
 
 .team-box:hover{
-  box-shadow: 4px 5px 48px #e7e7e7;
+  box-shadow: 4px 5px 48px #a5a5a5;
 }
 
 .team-content {
