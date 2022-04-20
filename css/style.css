@@ -223,7 +223,7 @@ label {
 }
 
 /* button style */
-.breadcrumb > .active {
+.breadcrumb>.active {
   color: #888;
 }
 
@@ -246,11 +246,11 @@ label {
   background: #444;
 }
 
-.bg-overlay{
+.bg-overlay {
   position: relative;
 }
 
-.bg-overlay::before{
+.bg-overlay::before {
   content: "";
   background: #040415;
   height: 100%;
@@ -260,18 +260,9 @@ label {
   top: 0;
   left: 0;
 }
-.contact-overlay{
-  position: relative;
-}
-.contact-overlay::before{
-  content: "";
-  background: #121121;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+
+.bg-overlay-9::before {
   opacity: .9;
-  top: 0;
-  left: 0;
 }
 
 /* Header */
@@ -375,7 +366,7 @@ label {
   width: 210px;
 }
 
-.main-menu ul li:hover > .submenu {
+.main-menu ul li:hover>.submenu {
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -448,7 +439,7 @@ label {
 
 
 .section-title-white h2 {
-	color: #fff;
+  color: #fff;
 }
 
 .section-title .text-center {
@@ -674,3 +665,43 @@ p {
   background-image: url(/images/bg/contact-bg.jpg);
 }
 
+.contact-input label {
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.contact-input span{
+  color: #ec6e39;
+}
+
+.contact-input input,select {
+  width: 100%;
+  height: 70px;
+  background: no-repeat;
+  border: 2px solid #2f383d;
+  padding: 0 35px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact-input input::-moz-placeholder{
+  color: #86859b ;
+  font-size: 14px;
+  opacity: 1;
+}
+.contact-input input:focus::placeholder{
+  opacity: 0;
+}
+.contact-input input:focus::-moz-placeholder{
+opacity: 0;
+}
+.contact-input input::placeholder{
+  color: #86859b ;
+  font-size: 14px;
+  opacity: 1;
+}
