@@ -867,3 +867,31 @@ p {
 .single-fact img {
   margin-bottom: 20px;
 }
+
+/* Blog */
+
+.news-content {
+  background: #fff;
+  padding: 40px 38px;
+  padding-top: 35px;
+}
+
+.news-content h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.news-content span {
+  color: #ec6e39;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.read-more-icon a {
+  color: #ec6e39;
+  font-size: 23px;
+}
