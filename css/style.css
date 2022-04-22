@@ -895,3 +895,42 @@ p {
   color: #ec6e39;
   font-size: 23px;
 }
+
+/* Footer */
+
+.footer-widget-title {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-widget p {
+  color: #afb3d6;
+}
+
+.footer-widget ul li a {
+  color: #afb3d6;
+  font-size: 16px;
+}
+
+.footer-widget ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-post-list span {
+  color: #ec6e39;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.footer-post-list h3 {
+  color: #d1d4eb;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer-post .footer-post-list:not(:last-child) {
+  margin-bottom: 30px;
+}
