@@ -424,6 +424,7 @@ label {
 
 .hero-area {
   background-image: url(/images/bg/hero-bg.png);
+  background-position:50%;
   min-height: 1020px;
   width: 100%;
 }
@@ -933,4 +934,25 @@ p {
 
 .footer-post .footer-post-list:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.copyright-text p{
+  color: #8a90c2;
+  margin: 0;
+}
+
+.copyright-text p a{
+  color: #ec6e39;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer-social a{
+  color: #8a90c2;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.footer-map{
+  background-image: url(/images/footer/footer-bg.png);
 }
