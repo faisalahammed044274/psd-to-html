@@ -1,32 +1,51 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
-}
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+    .header-info ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
 
+    .main-menu ul li {
+        margin-left: 18px;
+    }
+
+    .back-text {
+        font-size: 230px;
+    }
+
+    .s-back-title {
+        font-size: 100px;
+    }
+
+    .section-title h2{
+        font-size: 40px;
+    }
+
+    .event-image img {
+        width: 100%;
+      }
+    .event-content{
+        width: 100%;
+    }
 }
 
- 
+
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
-}
-
- 
 /* small mobile :320px. */
-@media (max-width: 767px) {
+@media (max-width: 767px) {}
 
- 
-}
- 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+
 }
