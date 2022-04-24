@@ -522,6 +522,7 @@ label {
 }
 
 .test-author img {
+  max-width: 100%;
   margin-right: 20px;
 }
 
@@ -663,7 +664,7 @@ p {
 }
 
 .event-g-img.position-relative img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* TEAM */
@@ -705,6 +706,7 @@ p {
 .team-img img {
   max-width: 100%;
 }
+
 /* Contact Area */
 
 .contact-area {
@@ -878,6 +880,7 @@ p {
 
 .single-fact img {
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 /* Blog */
@@ -888,7 +891,7 @@ p {
   padding-top: 35px;
 }
 
-.news-thumb img{
+.news-thumb img {
   max-width: 100%;
 }
 
@@ -970,4 +973,5 @@ p {
 
 .footer-map {
   background-image: url(/images/footer/footer-bg.png);
+  max-width: 100%;
 }
