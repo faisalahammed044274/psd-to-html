@@ -852,6 +852,7 @@ p {
 
 .fact-row .col-lg-3:not(:last-child) .single-fact {
   border-right: 2px solid #232239;
+  height: 100%;
 }
 
 /* .fact-row .col-lg-3:last-child .single-fact{
@@ -861,7 +862,7 @@ p {
 .single-fact h1 {
   color: #fff;
   font-size: 70px;
-  font-weight: 60px;
+  font-weight: 600;
 }
 
 .single-fact h1 span {
@@ -885,6 +886,10 @@ p {
   background: #fff;
   padding: 40px 38px;
   padding-top: 35px;
+}
+
+.news-thumb img{
+  width: 100%;
 }
 
 .news-content h4 {
