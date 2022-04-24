@@ -889,7 +889,7 @@ p {
 }
 
 .news-thumb img{
-  width: 100%;
+  max-width: 100%;
 }
 
 .news-content h4 {
