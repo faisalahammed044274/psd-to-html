@@ -72,7 +72,7 @@ $('.testimonial-active').slick({
 	dots: false,
 	arrows:false,
 	infinite: false,
-	speed: 300,
+	speed: 200,
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
@@ -81,8 +81,8 @@ $('.testimonial-active').slick({
 		settings: {
 		  slidesToShow: 1,
 		  slidesToScroll: 1,
-		  infinite: true,
-		  dots: true
+		  infinite: false,
+		  dots: false
 		}
 	  },
 	  {

@@ -8,24 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <!-- <link rel="stylesheet" href="css/fontawesome-all.min.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/meanmenu.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/default.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/animate.min.css" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="/css/meanmenu.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -42,7 +38,7 @@
       <div class="header-top pt-30 pb-30">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-xl-9 col-lg-9">
+            <div class="col-xl-9 col-lg-9 col-md-9">
               <div class="header-info">
                 <ul>
                   <li>
@@ -63,7 +59,7 @@
                       <h4>10am-12pm</h4>
                     </div>
                   </li>
-                  <li>
+                  <li class="header-info-last">
                     <div class="header-info-icon f-left">
                       <i class="fas fa-envelope"></i>
                     </div>
@@ -75,7 +71,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-3">
               <div class="header-login text-right">
                 <a href="#">
                   <i class="fas fa-lock"></i>
@@ -90,16 +86,16 @@
         <div class="container">
           <div class="menu-box">
             <div class="row align-items-center">
-              <div class="col-xl-3 col-lg-3">
+              <div class="col-xl-3 col-lg-3 col-md-4">
                 <div class="logo">
                   <a href="index.html"
                     ><img src="images/logo/logo.png" alt="logo"
                   /></a>
                 </div>
               </div>
-              <div class="col-xl-9 col-lg-9 d-flex align-items-center">
+              <div class="col-xl-9 col-lg-9 col-md-8 d-flex align-items-center">
                 <div class="main-menu f-right">
-                  <nav>
+                  <nav id="mobile-menu">
                     <ul>
                       <li><a href="#">Home</a></li>
                       <li>
@@ -118,9 +114,13 @@
                     </ul>
                   </nav>
                 </div>
+
                 <div class="header-btn f-right ml-40">
                   <a href="#" class="f-btn">Donate Now</a>
                 </div>
+              </div>
+              <div class="col-12">
+                <div class="mobile-menu"></div>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
       <div class="hero-area d-flex align-items-center bg-overlay">
         <div class="container">
           <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg-12 col-md-12">
               <div class="hero-wrapper text-center">
                 <a
                   class="popup-video"
@@ -362,7 +362,7 @@
           <div class="row">
             <div class="event-box">
               <div class="row no-gutters">
-                <div class="col-xl-6 col-lg-12">
+                <div class="col-xl-6 col-lg-12 col-md-12">
                   <div class="event-image position-relative">
                     <img src="images/event-bg.jpg" alt="event" />
                     <div class="event-btn">
@@ -370,7 +370,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-6 col-lg-12">
+                <div class="col-xl-6 col-lg-12 col-md-12">
                   <div class="event-content">
                     <span>24th April 2022</span>
                     <h2>
@@ -395,7 +395,7 @@
             </div>
           </div>
           <div class="row mt-20">
-            <div class="col-xl-4 col-lg-4 text-center mt-50">
+            <div class="col-xl-4 col-lg-4 col-md-6 text-center mt-50">
               <div class="event-card-white">
                 <div class="event-g-img position-relative">
                   <img src="images/bg-event-6.png" alt="" />
@@ -418,7 +418,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 text-center mt-50">
+            <div class="col-xl-4 col-lg-4 col-md-6 text-center mt-50">
               <div class="event-card-white">
                 <div class="event-g-img position-relative">
                   <img src="images/bg-event-6.png" alt="" />
@@ -441,7 +441,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 text-center mt-50">
+            <div class="col-xl-4 col-lg-4 md-up-event text-center mt-50">
               <div class="event-card-white">
                 <div class="event-g-img position-relative">
                   <img src="images/bg-event-6.png" alt="" />
@@ -481,7 +481,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-xl-4 col-md-4">
               <div class="team-box text-center mb-30">
                 <div class="team-img">
                   <img src="images/team/team-m-1.png" alt="" />
@@ -499,7 +499,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-xl-4 col-md-4">
               <div class="team-box text-center mb-70">
                 <div class="team-img">
                   <img src="images/team/team-m-2.png" alt="" />
@@ -517,7 +517,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-xl-4 col-md-4">
               <div class="team-box text-center mb-30">
                 <div class="team-img">
                   <img src="images/team/team-m-3.png" alt="" />
@@ -557,7 +557,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="contact-input mb-40">
                 <label for="fname">Your First Name <span>**</span> </label>
                 <input
@@ -568,7 +568,7 @@
                 />
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="contact-input mb-40">
                 <label for="fname">Your Last Name <span>**</span> </label>
                 <input
@@ -579,7 +579,7 @@
                 />
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="contact-input mb-40">
                 <label for="fname">Your Email <span>**</span> </label>
                 <input
@@ -590,7 +590,7 @@
                 />
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="contact-input mb-40">
                 <label for="fname">Your Phone Number <span>**</span> </label>
                 <input
@@ -601,7 +601,7 @@
                 />
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-12 col-md-12">
               <div class="contact-input mb-40">
                 <label for="fname">Religion <span>**</span> </label>
                 <div class="input-select">
@@ -615,12 +615,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-12 col-md-12">
               <div class="contact-input mb-40">
                 <label for="fname">Select location <span>**</span> </label>
 
                 <div class="row">
-                  <div class="col-xl-6 col-lg-6">
+                  <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="input-select">
                       <select name="" id="">
                         <option value="01">Country</option>
@@ -631,14 +631,14 @@
                       </select>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6">
+                  <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="input-select">
                       <select name="" id="">
-                        <option value="01">Select State</option>
-                        <option value="02">Select State</option>
-                        <option value="03">Select State</option>
-                        <option value="04">Select State</option>
-                        <option value="05">Select State</option>
+                        <option value="01">State</option>
+                        <option value="02">State</option>
+                        <option value="03">State</option>
+                        <option value="04">State</option>
+                        <option value="05">State</option>
                       </select>
                     </div>
                   </div>
@@ -711,12 +711,12 @@
                       aliqua.
                     </p>
                     <div class="up-event-btn d-block d-xl-none">
-                      <a href="" class="f-btn border-btn">Find More</a>
+                      <a href="" class="f-btn border-btn-color">Find More</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-xl-3 col-lg-12 d-none d-xl-block">
-                  <div class="up-event-btn text-left text-xl-right"> 
+                  <div class="up-event-btn text-left text-xl-right">
                     <a href="" class="f-btn border-btn-color">Find More</a>
                   </div>
                 </div>
@@ -784,28 +784,28 @@
       <div class="fact-area black-bg">
         <div class="container-fluid">
           <div class="row no-gutters fact-row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-xl-3 col-md-3">
               <div class="single-fact text-center">
                 <img src="images/icon/icon-3.png" alt="" />
                 <h1>1M<span>+</span></h1>
                 <span>Get Rewards</span>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-xl-3 col-md-3">
               <div class="single-fact text-center">
                 <img src="images/icon/icon-2.png" alt="" />
                 <h1>6M<span>+</span></h1>
                 <span>Volunteers</span>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-xl-3 col-md-3">
               <div class="single-fact text-center">
                 <img src="images/icon/icon-1.png" alt="" />
                 <h1>10M<span>+</span></h1>
                 <span>Doners</span>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-xl-3 col-md-3">
               <div class="single-fact text-center">
                 <img src="images/icon/icon-5.png" alt="" />
                 <h1>5M<span>+</span></h1>
@@ -830,7 +830,7 @@
                 <h1 class="s-back-title">Updates</h1>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 col-md-6">
               <div class="latest-news">
                 <div class="news-thumb">
                   <img src="images/bg/blog-bg.png" alt="" />
@@ -853,7 +853,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 col-md-6">
               <div class="latest-news">
                 <div class="news-thumb">
                   <img src="images/bg/blog-bg.png" alt="" />
@@ -876,7 +876,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 md-up-event">
               <div class="latest-news">
                 <div class="news-thumb">
                   <img src="images/bg/blog-bg.png" alt="" />
@@ -908,21 +908,20 @@
       <div class="footer-area pt-110 pb-60">
         <div class="container">
           <div class="row">
-            <div class="col-xl-4 col-lg-7 ">
+            <div class="col-xl-4 col-lg-7 col-md-7">
               <div class="footer-widget mb-50">
                 <h2 class="footer-widget-title">About us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adip
-                  isicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehen
-                  derit in voluptate velit esse cillum
-                  dolore eu.
+                  Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehen derit in voluptate velit esse
+                  cillum dolore eu.
                 </p>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-5">
+            <div class="col-xl-2 col-lg-5 col-md-5">
               <div class="footer-widget mb-50 pl-25">
                 <h2 class="footer-widget-title">Company</h2>
                 <ul>
@@ -934,7 +933,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-5">
+            <div class="col-xl-3 col-lg-5 col-md-5">
               <div class="footer-widget mb-50 pl-35">
                 <h2 class="footer-widget-title">Services</h2>
                 <ul>
@@ -946,7 +945,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-7">
+            <div class="col-xl-3 col-lg-7 col-md-7">
               <div class="footer-widget mb-50">
                 <h2 class="footer-widget-title">Recent Post</h2>
                 <div class="footer-post">
@@ -977,15 +976,15 @@
       <div class="copyright-area">
         <div class="container">
           <div class="footer-line">
-            <img src="/images/footer/line.png" alt="">
+            <img src="images/footer/line.png" alt="" />
           </div>
           <div class="row">
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="copyright-text">
                 <p>Made With Love - <a href="#">setu</a></p>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="footer-social text-right">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1000,21 +999,21 @@
     </footer>
 
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/one-page-nav-min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.meanmenu.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/one-page-nav-min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery.meanmenu.min.js"></script>
+    <script src="/js/ajax-form.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/jquery.scrollUp.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
