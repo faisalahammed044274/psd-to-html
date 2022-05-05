@@ -664,7 +664,7 @@ p {
 }
 
 .event-g-img.position-relative img {
-  max-width: 100%;
+  width: 100%;
 }
 
 /* TEAM */
@@ -892,7 +892,7 @@ p {
 }
 
 .news-thumb img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .news-content h4 {
@@ -971,7 +971,19 @@ p {
   font-size: 15px;
 }
 
+
 .footer-map {
   background-image: url(/images/footer/footer-bg.png);
   max-width: 100%;
+}
+
+/*
+///////////////////
+ About Page 
+///////////////////
+*/
+
+.page-title-area{
+  background-image: url(/images/bg/contact-bg.jpg);
+  height: 500px;
 }

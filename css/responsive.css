@@ -1,6 +1,7 @@
-img{
+img {
     max-width: 100%;
 }
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
@@ -69,6 +70,7 @@ img{
 
     .header-btn.f-right.ml-40 {
         margin-top: 15px;
+        margin-left: 150px;
     }
 
     .logo {
@@ -147,6 +149,84 @@ img{
     .footer-widget.mb-50.pl-35 {
         padding: 0;
     }
+
+    .menu-box {
+        padding-top: 18px;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        margin-top: -45px;
+
+    }
+
+    .back-text {
+        font-size: 100px;
+    }
+
+    .hero-wrapper {
+        margin-top: 170px;
+    }
+
+    .hero-wrapper h2 {
+        font-size: 38px;
+    }
+
+    .hero-wrapper h2 br {
+        display: none;
+    }
+
+    .hero-area {
+        min-height: 650px;
+    }
+
+    .back-text {
+        font-size: 90px;
+    }
+
+    .s-back-title {
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .testimonial-content {
+        padding: 14px;
+    }
+
+    .up-date.f-left {
+        width: 100%;
+    }
+
+    .up-event-content.fix {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .fact-row .col-lg-3:not(:last-child) .single-fact {
+        border-right: 0;
+    }
+
+    .footer-widget.mb-50 {
+        padding-left: 0;
+    }
+
+    .news-content {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .single-fact {
+        padding: 40px;
+    }
+
+    .copyright-text.text-center.text-md-left {
+        padding-bottom: 15px;
+    }
+
+
 }
 
 /* Large Mobile :480px. */
@@ -157,6 +237,32 @@ img{
 
     .footer-widget.mb-50.pl-35 {
         padding: 0;
+    }
+
+    .fact-row .col-lg-3:not(:last-child) .single-fact {
+        border-right: none;
+        border-bottom: 2px solid #232239;
+        height: 100%;
+    }
+
+    .news-content {
+        margin-bottom: 40px;
+    }
+
+    .single-fact {
+        padding: 40px;
+    }
+
+    .event-card-white {
+        height: 580px;
+    }
+
+    .back-text {
+        font-size: 130px;
+    }
+
+    .s-back-title {
+        font-size: 70px;
     }
 
 }
