@@ -485,7 +485,7 @@ label {
 
 .s-back-title {
   color: #6d6d70;
-  font-size: 120px;
+  font-size: 115px;
   left: 0;
   opacity: 0.09;
   position: absolute;
@@ -789,7 +789,7 @@ p {
 /* Event */
 
 .up-event-box {
-  padding: 50px;
+  padding: 45px;
   margin: 20px;
 }
 
@@ -983,7 +983,18 @@ p {
 ///////////////////
 */
 
+
+/* Page Titile */
 .page-title-area{
-  /* background-image: url(/images/bg/contact-bg.jpg); */
-  height: 500px;
+padding-top: 385px;
+padding-bottom: 190px;
+}
+
+.abt{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.abt h2{
+  color: greenyellow;
 }
